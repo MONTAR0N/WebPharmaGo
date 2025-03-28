@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma-GO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Pharma-GO Logo">
+            <h1>Pharma-GO</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Info Section -->
+        <section class="info-section">
+            <h2>Bienvenido a Pharma-GO</h2>
+            <p>Tu farmacia de confianza, disponible las 24 horas para cuidar de tu salud.</p>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <h2>Buscar Farmacias</h2>
+            <div class="search-controls">
+                <select id="region-select">
+                    <option value="">Seleccione una región</option>
+                </select>
+                <select id="comuna-select">
+                    <option value="">Seleccione una comuna</option>
+                </select>
+                <button id="search-btn">Buscar</button>
+            </div>
+
+            <!-- Results Table -->
+            <div class="results-container">
+                <table id="results-table" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>Nombre Local</th>
+                            <th>Localidad</th>
+                            <th>Dirección</th>
+                            <th>De Turno</th>
+                            <th>Ver en Mapa</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results-body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Chat Section -->
+        <section class="chat-section">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h3>Asistente Virtual</h3>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Los mensajes se insertarán aquí -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+                    <button id="send-btn">Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

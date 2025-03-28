@@ -1,0 +1,70 @@
+2025-03-27 21:03:12,546 - INFO - Farmacias normales procesadas:
+2025-03-27 21:03:12,546 - INFO - - Válidas: 2961
+2025-03-27 21:03:12,546 - INFO - - Inválidas: 0
+2025-03-27 21:03:12,546 - INFO - - Total: 2961
+2025-03-27 21:03:12,586 - INFO - Farmacias de turno procesadas:
+2025-03-27 21:03:12,587 - INFO - - Válidas: 223
+2025-03-27 21:03:12,587 - INFO - - Inválidas: 0
+2025-03-27 21:03:12,587 - INFO - - Total: 223
+2025-03-27 21:03:12,622 - INFO - Actualización de URLs combinadas completada:
+2025-03-27 21:03:12,622 - INFO - - Farmacias actualizadas: 3184
+2025-03-27 21:03:12,622 - INFO - - Farmacias con error: 0
+2025-03-27 21:03:12,623 - INFO - - Total procesadas: 3184
+2025-03-27 21:03:12,623 - INFO - Actualización de farmacias completada exitosamente
+2025-03-27 21:03:12,626 - INFO - Consultados 50 registros de farmacias
+2025-03-27 23:59:08,721 - INFO - Farmacias normales procesadas:
+2025-03-27 23:59:08,722 - INFO - - Válidas: 2957
+2025-03-27 23:59:08,722 - INFO - - Inválidas: 0
+2025-03-27 23:59:08,722 - INFO - - Total: 2957
+2025-03-27 23:59:08,756 - INFO - Farmacias de turno procesadas:
+2025-03-27 23:59:08,757 - INFO - - Válidas: 148
+2025-03-27 23:59:08,757 - INFO - - Inválidas: 0
+2025-03-27 23:59:08,757 - INFO - - Total: 148
+2025-03-27 23:59:08,797 - INFO - Actualización de URLs combinadas completada:
+2025-03-27 23:59:08,797 - INFO - - Farmacias actualizadas: 3105
+2025-03-27 23:59:08,797 - INFO - - Farmacias con error: 0
+2025-03-27 23:59:08,797 - INFO - - Total procesadas: 3105
+2025-03-27 23:59:08,798 - INFO - Actualización de farmacias completada exitosamente
+2025-03-27 23:59:08,800 - INFO - Consultados 50 registros de farmacias
+2025-03-28 00:01:22,470 - INFO - Farmacias normales procesadas:
+2025-03-28 00:01:22,470 - INFO - - Válidas: 2957
+2025-03-28 00:01:22,470 - INFO - - Inválidas: 0
+2025-03-28 00:01:22,470 - INFO - - Total: 2957
+2025-03-28 00:01:22,504 - INFO - Farmacias de turno procesadas:
+2025-03-28 00:01:22,505 - INFO - - Válidas: 148
+2025-03-28 00:01:22,505 - INFO - - Inválidas: 0
+2025-03-28 00:01:22,505 - INFO - - Total: 148
+2025-03-28 00:01:22,569 - INFO - Actualización de URLs combinadas completada:
+2025-03-28 00:01:22,569 - INFO - - Farmacias actualizadas: 3105
+2025-03-28 00:01:22,569 - INFO - - Farmacias con error: 0
+2025-03-28 00:01:22,569 - INFO - - Total procesadas: 3105
+2025-03-28 00:01:22,570 - INFO - Actualización de farmacias completada exitosamente
+2025-03-28 00:01:22,573 - INFO - Consultados 50 registros de farmacias
+2025-03-28 00:03:21,083 - INFO - Farmacias normales procesadas:
+2025-03-28 00:03:21,083 - INFO - - Válidas: 2957
+2025-03-28 00:03:21,083 - INFO - - Inválidas: 0
+2025-03-28 00:03:21,083 - INFO - - Total: 2957
+2025-03-28 00:03:21,115 - INFO - Farmacias de turno procesadas:
+2025-03-28 00:03:21,115 - INFO - - Válidas: 148
+2025-03-28 00:03:21,115 - INFO - - Inválidas: 0
+2025-03-28 00:03:21,115 - INFO - - Total: 148
+2025-03-28 00:03:21,161 - INFO - Actualización de URLs combinadas completada:
+2025-03-28 00:03:21,161 - INFO - - Farmacias actualizadas: 3105
+2025-03-28 00:03:21,161 - INFO - - Farmacias con error: 0
+2025-03-28 00:03:21,162 - INFO - - Total procesadas: 3105
+2025-03-28 00:03:21,162 - INFO - Actualización de farmacias completada exitosamente
+2025-03-28 00:03:21,165 - INFO - Consultados 50 registros de farmacias
+2025-03-28 00:05:26,740 - INFO - Farmacias normales procesadas:
+2025-03-28 00:05:26,740 - INFO - - Válidas: 2957
+2025-03-28 00:05:26,740 - INFO - - Inválidas: 0
+2025-03-28 00:05:26,740 - INFO - - Total: 2957
+2025-03-28 00:05:26,768 - INFO - Farmacias de turno procesadas:
+2025-03-28 00:05:26,769 - INFO - - Válidas: 148
+2025-03-28 00:05:26,769 - INFO - - Inválidas: 0
+2025-03-28 00:05:26,769 - INFO - - Total: 148
+2025-03-28 00:05:26,810 - INFO - Actualización de URLs combinadas completada:
+2025-03-28 00:05:26,810 - INFO - - Farmacias actualizadas: 3105
+2025-03-28 00:05:26,810 - INFO - - Farmacias con error: 0
+2025-03-28 00:05:26,810 - INFO - - Total procesadas: 3105
+2025-03-28 00:05:26,811 - INFO - Actualización de farmacias completada exitosamente
+2025-03-28 00:05:26,813 - INFO - Consultados 50 registros de farmacias

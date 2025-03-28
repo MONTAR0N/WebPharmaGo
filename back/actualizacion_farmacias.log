@@ -1,0 +1,14 @@
+2025-03-26 13:05:35,041 - INFO - Farmacias normales procesadas:
+2025-03-26 13:05:35,041 - INFO - - Válidas: 2961
+2025-03-26 13:05:35,041 - INFO - - Inválidas: 0
+2025-03-26 13:05:35,041 - INFO - - Total: 2961
+2025-03-26 13:05:35,099 - INFO - Farmacias de turno procesadas:
+2025-03-26 13:05:35,099 - INFO - - Válidas: 314
+2025-03-26 13:05:35,099 - INFO - - Inválidas: 0
+2025-03-26 13:05:35,099 - INFO - - Total: 314
+2025-03-26 13:05:35,142 - INFO - Actualización de URLs combinadas completada:
+2025-03-26 13:05:35,142 - INFO - - Farmacias actualizadas: 3275
+2025-03-26 13:05:35,142 - INFO - - Farmacias con error: 0
+2025-03-26 13:05:35,142 - INFO - - Total procesadas: 3275
+2025-03-26 13:05:35,143 - INFO - Actualización de farmacias completada exitosamente
+2025-03-26 13:05:35,146 - INFO - Consultados 50 registros de farmacias
