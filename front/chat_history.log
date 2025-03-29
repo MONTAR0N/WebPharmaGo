@@ -627,3 +627,33 @@ sqlite3.OperationalError: unable to open database file
 
 Nota: Esta información es solo edu...
 2025-03-28 00:29:48,682 - INFO - 127.0.0.1 - - [28/Mar/2025 00:29:48] "POST /chat HTTP/1.1" 200 -
+2025-03-28 19:24:50,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.15:5000
+2025-03-28 19:24:50,628 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 19:24:59,117 - INFO - 127.0.0.1 - - [28/Mar/2025 19:24:59] "GET / HTTP/1.1" 200 -
+2025-03-28 19:24:59,285 - INFO - 127.0.0.1 - - [28/Mar/2025 19:24:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-28 19:24:59,379 - INFO - 127.0.0.1 - - [28/Mar/2025 19:24:59] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-03-28 19:24:59,476 - INFO - 127.0.0.1 - - [28/Mar/2025 19:24:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-28 19:24:59,921 - INFO - 127.0.0.1 - - [28/Mar/2025 19:24:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 19:25:00,130 - INFO - 127.0.0.1 - - [28/Mar/2025 19:25:00] "GET /get_regions HTTP/1.1" 200 -
+2025-03-28 19:25:03,100 - INFO - 127.0.0.1 - - [28/Mar/2025 19:25:03] "GET /get_comunas/Metropolitana%20de%20Santiago HTTP/1.1" 200 -
+2025-03-28 19:25:06,394 - INFO - 127.0.0.1 - - [28/Mar/2025 19:25:06] "GET /search_farmacias/Metropolitana%20de%20Santiago/ISLA%20DE%20MAIPO HTTP/1.1" 200 -
+2025-03-28 19:25:22,509 - INFO - === New chat message received ===
+2025-03-28 19:25:31,529 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-28 19:25:33,823 - INFO - Chat history saved for session 89552670-cf33-40a9-885e-3ea1f5fbdd65
+2025-03-28 19:25:33,823 - INFO - User 89552670-cf33-40a9-885e-3ea1f5fbdd65 - Message: que repedio se usa para tratar la depresión?
+2025-03-28 19:25:33,823 - INFO - User 89552670-cf33-40a9-885e-3ea1f5fbdd65 - Response: Lo siento, ocurrió un error al procesar tu consulta: [Errno 11001] getaddrinfo failed...
+2025-03-28 19:25:33,824 - INFO - 127.0.0.1 - - [28/Mar/2025 19:25:33] "POST /chat HTTP/1.1" 200 -
+2025-03-28 19:30:44,163 - INFO - 127.0.0.1 - - [28/Mar/2025 19:30:44] "GET / HTTP/1.1" 200 -
+2025-03-28 19:30:44,195 - INFO - 127.0.0.1 - - [28/Mar/2025 19:30:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-28 19:30:44,427 - INFO - 127.0.0.1 - - [28/Mar/2025 19:30:44] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-03-28 19:30:44,504 - INFO - 127.0.0.1 - - [28/Mar/2025 19:30:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-28 19:30:44,834 - INFO - 127.0.0.1 - - [28/Mar/2025 19:30:44] "GET /get_regions HTTP/1.1" 200 -
+2025-03-28 19:31:04,131 - INFO - === New chat message received ===
+2025-03-28 19:31:09,854 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-28 19:31:12,158 - INFO - Chat history saved for session b06a7fd7-a317-4d63-8fd5-8e30050b292f
+2025-03-28 19:31:12,159 - INFO - User b06a7fd7-a317-4d63-8fd5-8e30050b292f - Message: que se usa para tratar la depresion?
+2025-03-28 19:31:12,159 - INFO - User b06a7fd7-a317-4d63-8fd5-8e30050b292f - Response: Lo siento, ocurrió un error al procesar tu consulta: [Errno 11001] getaddrinfo failed...
+2025-03-28 19:31:12,159 - INFO - 127.0.0.1 - - [28/Mar/2025 19:31:12] "POST /chat HTTP/1.1" 200 -

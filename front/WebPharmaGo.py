@@ -35,14 +35,10 @@ app.secret_key = 'Pajaritos3nIaIuna'  # Cambia esto por una clave segura
 # Configura el tiempo de vida de la sesión
 app.permanent_session_lifetime = timedelta(minutes=60)
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE_PATH = os.path.join(BASE_DIR, 'Base', 'farmacias_turno.db')
-
 def get_db_connection():
-    conn = sqlite3.connect(DATABASE_PATH)
+    conn = sqlite3.connect('/Base/farmacias_turno.db')
     conn.row_factory = sqlite3.Row
     return conn
- 
 
 @app.route('/')
 def index():
@@ -289,10 +285,11 @@ def clear_chat_history():
             chat_sessions[user_id].clear_history()
             
         # Eliminar historial de la base de datos
-        conn = get_db_connection()
-        conn.execute("DELETE FROM chat_history WHERE session_id = ?", (user_id,))
-        conn.commit()
-        conn.close()
+        def get_db_connection():
+            base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'front', 'Base', 'farmacias_turno.db')
+            conn = sqlite3.connect(base_path)
+            conn.row_factory = sqlite3.Row
+            return conn
         
         return jsonify({'message': 'Chat history cleared', 'user_id': user_id})
     except Exception as e:

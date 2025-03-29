@@ -110,7 +110,7 @@ def query_qdrant(qdrant, query, k=3):
 
 def main():
     # Ajusta la ruta a tu PDF
-    pdf_path = "Vademecum_5ed_Medicamentos.pdf"
+    pdf_path = os.path.join(os.path.dirname(__file__), "Vademecum_5ed_Medicamentos.pdf")
 
     # Indexar el PDF
     print("Indexando PDF...")
