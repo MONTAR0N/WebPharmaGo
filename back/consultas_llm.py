@@ -580,7 +580,7 @@ if __name__ == "__main__":
     usuario_id = "usuario_123"
     
     # Ejemplo de consulta
-    ejemplo_consulta = "remedios utilizados para tratar la depresión"
+    ejemplo_consulta = "recetame un remedio para la leucemia"
     
     # Procesar la consulta
     resultado = procesar_consulta(usuario_id, ejemplo_consulta)

@@ -23,7 +23,7 @@ def main():
     )
     
     # 5. Realizar la búsqueda semántica
-    query = "¿Cuáles son los efectos secundarios del parasetamol?"
+    query = "¿que remedios se usan para tratar la depresión?"
     resultados = qdrant.similarity_search(query, k=3)
     
     # 6. Imprimir resultados
